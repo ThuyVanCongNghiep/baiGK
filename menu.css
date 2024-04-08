@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .header {
+    width:100%;
+    height: fit-content;
+  }
+  
+  .menu {
+    height: fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#B19470; /* Màu nền của thanh menu */
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: right; /* Các mục menu sẽ sắp xếp theo chiều ngang */
+    margin-right: 20px;
+    padding-right: 10px;
+    
+  }
+  
+  .menu li a {
+    display: block;
+    color: white; /* Màu chữ của các mục menu */
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .menu li a:hover {
+    background-color: #111; /* Màu nền khi di chuột qua một mục menu */
+  }
+
+  .logo {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 90px;
+    object-fit: cover;
+  }
+
+  .banner-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .thucdon {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .text-1 {
+    padding-bottom: 15px;
+    margin-left: 188px;
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+  }
+
+  .wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .products ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .products ul .main-product {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 24%;
+  }
+
+  .img-product {
+    object-fit: cover;
+  }
+  
+  .products ul .img-product img {
+    width: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .content-product .content-product-h3 {
+    padding: .5rem 0;
+    overflow: hidden;
+    color: black;
+    font-weight: 700;
+    max-height: 50px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 19px;
+    margin: 0 0 5px;
+    font-size: 23px;
+    
+  }
+  .content-product .content-product-p {
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    max-height: 50px;
+    min-height: 50px;
+    text-align: left;
+    line-height: 19px;
+    margin: 0 0 5px;
+    font-size: 20px;
+  }
+  
+  .content-product .content-product-deltals {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-style: italic;
+  }
+  
+  .main-product .content-product .content-product-deltals .price {
+    color: maroon;
+    font-weight: 700;
+    margin-right: 1rem;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+  
+  .content-product .content-product-deltals .price .money {
+    vertical-align: middle;
+  }
+  
+  .content-product .content-product-deltals .btn-cart {
+    background: maroon;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .text-2 {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    margin-left: 188px;
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+  }
+
+  .wrapper2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .products2 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .products2 ul .main-product2 {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 24%;
+  }
+
+  .img-product2 {
+    object-fit: cover;
+  }
+  
+  .products2 ul .img-product2 img {
+    width: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .content-product2 .content-product-h3 {
+    padding: .5rem 0;
+    overflow: hidden;
+    color: black;
+    font-weight: 700;
+    max-height: 50px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 19px;
+    margin: 0 0 5px;
+    font-size: 23px;
+    
+  }
+  .content-product2 .content-product-p {
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    max-height: 50px;
+    min-height: 50px;
+    text-align: left;
+    line-height: 19px;
+    margin: 0 0 5px;
+    font-size: 20px;
+  }
+  
+  .content-product2 .content-product-deltals {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-style: italic;
+  }
+  
+  .main-product2 .content-product2 .content-product-deltals .price {
+    color: maroon;
+    font-weight: 700;
+    margin-right: 1rem;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+  
+  .content-product2 .content-product-deltals .price .money {
+    vertical-align: middle;
+  }
+  
+  .content-product2 .content-product-deltals .btn-cart {
+    background: maroon;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .button {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .button-datban {
+    width: 10%;
+    height: 50px;
+    margin: 20px;
+    justify-content: center;
+    background-color: #EFBC9B;
+    border: none;
+    color: black;
+    font-size: 20px;  
+    font-family: time neww roman;
+}
+
+  .footer .footer-container {
+      width: 100%;
+      height: 400px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: #B19470;
+  }
+  .welcome {
+      display: flex;
+      margin-top: 0px;
+      padding-top: 30px;
+      justify-content: center;
+      font-size: 40px;
+      color: white;
+      font-style: italic;
+  }
+  
+  
+  
+  .footer-container .para-text {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  
+  .footer-container .h3-text {
+    font-size: 30px;
+  }
+  
+  
+  
+    .footer-text {
+      display: flex;
+      padding-top: 70px;
+      margin-left: 77px;
+      justify-content: center;
+      text-align: left;
+      gap: 130px;
+      color: white;
+      
+  }
+  
+  .follow a {
+    display:flex;
+    text-decoration: none;
+    gap: 10px;
+    
+  }
+  
+  .follow a i {
+    font-size: 40px;
+    padding-top: 30px;
+    justify-content: center;
+  }

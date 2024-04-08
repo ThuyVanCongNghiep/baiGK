@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .header {
+    width:100%;
+    height: fit-content;
+  }
+  
+  .menu {
+    height: fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#B19470; /* Màu nền của thanh menu */
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: right; /* Các mục menu sẽ sắp xếp theo chiều ngang */
+    margin-right: 20px;
+    padding-right: 10px;
+    
+  }
+  
+  .menu li a {
+    display: block;
+    color: white; /* Màu chữ của các mục menu */
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .menu li a:hover {
+    background-color: #111; /* Màu nền khi di chuột qua một mục menu */
+  }
+  
+  .logo {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 90px;
+    object-fit: cover;
+  }
+
+.banner{
+    background-image: url('./images.gioithieu/anh9.jpg');
+    background-position: center;
+    height: 700px;
+    weight: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover; /* Hiển thị ảnh tràn màn hình */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-family:  'Time New Roman', cursive;
+    font-style: italic;
+    text-shadow: 2px 4px 4px #FFEBB2; /* Tạo đổ bóng cho chữ độ bóng ra 4 chiều màu sắc */
+   -webkit-text-stroke-width: 1px; /* Độ dày của viền */
+   -webkit-text-stroke-color: #000; /* Màu của viền */
+}
+.p1{
+    position:relative;
+    margin-top: 40px;
+    animation: fadeIn 2s ease forwards;
+}
+.p2{
+    position:relative;
+    margin-top: 150px;
+    margin-left: 15px;
+    animation: fadeIn 2s ease forwards;
+
+}
+.p3{
+    position:relative;
+    margin-top: 300px;
+    margin-right: 400px;
+    animation: fadeIn 2s ease forwards;
+    
+}
+.banner2{
+    background-image: url('./images.gioithieu/anh3.jpg');
+    background-size: cover; /* Hiển thị hình ảnh để tràn màn hình */
+    background-position: center; /* Căn chỉnh hình ảnh từ trung tâm */
+    height: 675px;
+    weight: 1440px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.banner2 .content2{
+    color: white;
+
+ h1{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        font-family:  'Time New Roman', cursive;
+        text-shadow: 2px 4px 4px #FFEBB2; /* Tạo đổ bóng cho chữ độ bóng ra 4 chiều màu sắc */
+       -webkit-text-stroke-width: 1px; /* Độ dày của viền */
+       -webkit-text-stroke-color: #000; /* Màu của viền */
+
+
+    }  
+}
+.banner2 .nd2{
+        color: white;
+        margin-top: 85px;
+        -webkit-text-stroke-width: 0.2px; /* Độ dày của viền */
+        -webkit-text-stroke-color: black; /* Màu của viền */
+        padding-left: 30px;
+        font-size: 25px;
+        margin: 30px 40px 30px 30px;
+        text-indent: 25px; 
+        font-style: bold;
+        font-family: time new roman;
+
+}
+.banner3{
+    background-image: url(./images.gioithieu/anh12.jpg);
+    background-size: cover; /* Hiển thị hình ảnh để tràn màn hình */
+    background-position: center; /* Căn chỉnh hình ảnh từ trung tâm */
+    height: 675px;
+    weight: 1440px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+}
+.content3{
+    color: white;
+    h2{
+        font-size: 90px;
+        font-family:  'Time New Roman', cursive;
+        font-style: italic;
+        justify-content: left;
+        margin-top: 80px;
+        margin-left: 50px;
+        text-shadow: 2px 4px 4px #EAD8C0; /* Tạo đổ bóng cho chữ độ bóng ra 4 chiều màu sắc */
+        -webkit-text-stroke-width: 1px; /* Độ dày của viền */
+        -webkit-text-stroke-color: #000; /* Màu của viền */
+    }  
+  .nd3 {
+    margin-top: 40px;
+    margin-right: 50px;
+    p{
+        padding-left: 30px;
+        font-size: 25px;
+        margin: 30px 40px 30px 30px;
+        text-indent: 25px; 
+        font-style: italic;
+        font-style: bold;
+        font-family: time new roman;
+        -webkit-text-stroke-width: 0.2x; /* Độ dày của viền */
+        -webkit-text-stroke-color: #000; /* Màu của viền */
+    }
+  }
+}
+.footer .footer-container {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #B19470;
+  }
+  .welcome {
+    display: flex;
+    margin-top: 0px;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+  }
+  
+  
+  
+  .footer-container .para-text {
+  font-size: 20px;
+  padding-top: 30px;
+  }
+  
+  .footer-container .h3-text {
+  font-size: 30px;
+  }
+  
+  
+  
+  .footer-text {
+    display: flex;
+    padding-top: 70px;
+    margin-left: 77px;
+    justify-content: center;
+    text-align: left;
+    gap: 130px;
+    color: white;
+    
+  }
+  
+  .follow a {
+  display:flex;
+  text-decoration: none;
+  gap: 10px;
+  
+  }
+  
+  .follow a i {
+  font-size: 40px;
+  padding-top: 30px;
+  justify-content: center;
+  }

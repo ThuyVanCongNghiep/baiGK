@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  width:100%;
+  height: fit-content;
+}
+
+.menu {
+  height: fit-content;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:#B19470; /* Màu nền của thanh menu */
+  overflow: hidden;
+}
+
+.menu li {
+  float: right; /* Các mục menu sẽ sắp xếp theo chiều ngang */
+  margin-right: 20px;
+  padding-right: 10px;
+  
+}
+
+.menu li a {
+  display: block;
+  color: white; /* Màu chữ của các mục menu */
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu li a:hover {
+  background-color: #111; /* Màu nền khi di chuột qua một mục menu */
+}
+
+.logo {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 90px;
+  object-fit: cover;
+}
+
+
+.contact{
+    background-color: #FFF6E9;
+  }
+  .banner{
+      background-image: url('./images.lienhe/a26.jpg');
+      background-position: center;
+      height: 700px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover; /* Hiển thị ảnh tràn màn hình */
+      display: flex;
+      border: 0;
+      margin:0;
+      padding: 0;
+  }
+  .content{
+    font-size: 90px;
+    color: #fff; 
+    font-weight: 500;
+    font-family: time new roman;
+  }
+
+  .row {
+      display: flex;
+      align-items: center; /* Canh giữa theo chiều dọc */
+      margin-top: 40px;
+  }
+  
+  .horizontal-line {
+      flex: 1; /* Chia đều không gian cho hai thanh ngang */
+      border-bottom: 2px solid #000; 
+      margin: 0 40px;
+  }
+  
+  .text {
+      margin: 0 20px; /* Khoảng cách giữa chữ và thanh ngang */
+      font-size: 40px;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      color: #3F2305;
+  }
+
+.meancontent{
+   display: flex; 
+} 
+
+  .form {
+      flex: 1;
+      Width: 500px;
+      margin: 40px auto 0 40px;
+      padding: 20px;
+      background-color: #FFEDD8;
+      border-radius: 5px; /* gọt viền */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* độ bóng */
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+  }
+  
+  .form h3 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #3F2305;
+      font-size: 25px;   
+  }
+  
+  .form-group {
+      margin-bottom: 20px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+  
+  button {
+      display: block;
+      width: 25%;
+      padding: 10px;
+      background-color: #EBC49F;
+      color: #000;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer; /* con trỏ của chuột sẽ thay đổi khi di chuyển */
+      transition: background-color 0.3s ease;
+      margin: 0 34%;
+  }
+  
+  button:hover {
+      background-color: #BBE2EC;
+  }
+
+.addcontent{
+      flex: 1;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      margin-left: 85px;
+      margin-right: 40px;
+      margin-top: 40px;
+      padding: 15px;
+      border: 1px solid #ccc; /*lkhung viền border bao quanh 1px nét liền màu ccc*/
+      border-radius: 5px; /* gọt viền */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      background-color: #FFEDD8;
+}
+.addcontent h3{
+      margin-bottom: 30px;
+      margin-top: 40px;
+      text-align: center;
+      color: #3F2305;
+}
+.addcontent p{
+      font-size: 17px;
+      margin-top: 20px;
+      text-indent: 25px;
+      color: #3F2305;
+      
+}
+.addcontent .welcome-icon {
+  text-align: center; /* Canh giữa biểu tượng */
+  margin-top: 20px; /* Khoảng cách từ phần tử trên cùng */
+}
+.map{
+      margin-left: 31px;
+      margin-top: 40px;
+}
+
+.footer .footer-container {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #B19470;
+}
+.welcome {
+  display: flex;
+  margin-top: 0px;
+  padding-top: 30px;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+}
+
+
+
+.footer-container .para-text {
+font-size: 20px;
+padding-top: 30px;
+}
+
+.footer-container .h3-text {
+font-size: 30px;
+}
+
+
+
+.footer-text {
+  display: flex;
+  padding-top: 70px;
+  margin-left: 77px;
+  justify-content: center;
+  text-align: left;
+  gap: 130px;
+  color: white;
+  
+}
+
+.follow a {
+display:flex;
+text-decoration: none;
+gap: 10px;
+
+}
+
+.follow a i {
+font-size: 40px;
+padding-top: 30px;
+justify-content: center;
+}
